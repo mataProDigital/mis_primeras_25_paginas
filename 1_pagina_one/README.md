@@ -39,3 +39,6 @@ Este sitio web fue creado por [Tu Nombre](https://www.tunombre.com/). Los recurs
 
 -   Imágenes: [Unsplash](https://unsplash.com/)
 -   Iconos: [Font Awesome](https://fontawesome.com/)enter code here
+
+
+![Portada](./img/pagina_one.png)
