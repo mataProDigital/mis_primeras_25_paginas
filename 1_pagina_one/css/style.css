@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+}
+
+/* Estilos para el encabezado */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.header__title {
+  font-size: 28px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item {
+  margin-right: 20px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav__item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para el contenido principal */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.intro {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.intro__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content {
+  width: 65%;
+}
+
+.article {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.article__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.article__text {
+  line-height: 1.5;
+}
+
+/* Estilos para la barra lateral */
+.sidebar {
+  width: 30%;
+}
+
+.sidebar__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.sidebar__text {
+  line-height: 1.5;
+}
+
+/* Estilos para el pie de página */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer__text {
+  font-size: 14px;
+}
