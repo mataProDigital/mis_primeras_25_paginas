@@ -35,10 +35,9 @@ Alternativamente, puedes acceder a la página web en línea en el siguiente enla
 
 ## Créditos
 
-Este sitio web fue creado por [Tu Nombre](https://www.tunombre.com/). Los recursos utilizados para crear este sitio web se indican a continuación:
+Este sitio web fue creado por Claudio Ortix. Los recursos utilizados para crear este sitio web se indican a continuación:
 
--   Imágenes: [Unsplash](https://unsplash.com/)
--   Iconos: [Font Awesome](https://fontawesome.com/)enter code here
+
 
 
 ![Portada](./img/pagina_one.png)
