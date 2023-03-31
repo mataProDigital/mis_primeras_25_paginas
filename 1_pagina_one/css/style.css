@@ -1,9 +1,11 @@
 body{
   margin: 0;
+  overflow-x: hidden;
 }
 
 /* Estilos para el encabezado */
 .header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,11 +24,11 @@ body{
 }
 
 .nav__item {
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .nav__item:last-child {
-  margin-right: 0;
+  /* margin-right: 0; */
 }
 
 .nav__item a {
@@ -48,12 +50,13 @@ body{
 }
 
 .intro__title {
-  font-size: 24px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
 .content {
   width: 65%;
+  
 }
 
 .article {
@@ -87,6 +90,7 @@ body{
 
 /* Estilos para el pie de página */
 .footer {
+  width: 100%;
   background-color: #333;
   color: #fff;
   padding: 20px;

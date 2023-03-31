@@ -8,7 +8,7 @@
 </head>
 <body>
   <header class="header">
-    <h1 class="header__title">Mi Página Web</h1>
+    <h2 class="header__title">Mi Logo</h2>
     <nav class="header__nav">
       <ul class="nav">
         <li class="nav__item"><a href="#">Inicio</a></li>
@@ -19,36 +19,54 @@
   </header>
   <main class="main">
     <section class="intro">
-      <h2 class="intro__title">¡Bienvenido!</h2>
+      <h1 class="intro__title">Creando mi primer pagina web</h1>
       <p class="intro__text">Esta es mi página web básica.</p>
     </section>
     <section class="content">
       <article class="article">
-        <h3 class="article__title">Mi primer artículo</h3>
-        <p class="article__text">Este es mi primer artículo sobre HTML semántico y la metodología BEM.</p>
+        <h3 class="article__title"> Definir la estructura de la página</h3>
+        <p class="article__text">Una vez que se ha creado el documento HTML, es hora de definir la estructura de la página. Esto se hace utilizando las etiquetas semánticas de HTML, como header, nav, main, article, section, aside, y footer.</p>
+        <ul>
+          <li>
+            La etiqueta "body" contiene todo el contenido visible de la página.
+          </li>
+          <li>La etiqueta "header" define el encabezado de la página.</li> 
+          <li>La etiqueta "nav" define una sección de navegación.</li>
+          <li>La etiqueta "ul" define una lista sin ordenar.</li>
+          <li>La etiqueta "li" define cada elemento de la lista</li>
+          <li>La etiqueta "a" define un enlace dentro de cada elemento de la lista.</li>
+          <li>La etiqueta "main" define la sección principal de la página.</li>
+          <li>La etiqueta "section" define una sección de contenido.</li>
+          <li>La etiqueta "article" define una sección de contenido independiente que puede ser reutilizada en otras partes de la página.</li>
+          <li>La etiqueta "aside" define una sección secundaria de contenido.</li>
+          <li>La etiqueta "footer" define el pie de página de la página.</li>
+        </ul>
       </article>
       <article class="article">
-        <h3 class="article__title">Mi primer artículo</h3>
-        <p class="article__text">Este es mi primer artículo sobre HTML semántico y la metodología BEM.</p>
+        <h3 class="article__title">Metodología BEM</h3>
+        <p class="article__text">En este código HTML y CSS, se puede observar la metodología BEM aplicada en las clases CSS. BEM significa Block, Element, Modifier, lo que se traduce a Bloque, Elemento y Modificador. Esta metodología de nomenclatura para clases CSS se utiliza para mantener una estructura organizada y predecible en el código.
+
+En el código, las clases CSS se dividen en bloques principales como header, main, sidebar y footer. Dentro de estos bloques, hay elementos como header__title, nav__item y article__text, que son partes específicas de cada bloque. Los modificadores también se utilizan para añadir variaciones a los bloques o elementos, como en el caso de nav__item:last-child, que modifica el margen del último elemento de la lista.
+
+La metodología BEM también promueve el uso de clases independientes y reutilizables, lo que significa que las mismas clases se pueden aplicar a diferentes elementos en distintos lugares. Por ejemplo, la clase .article__text puede ser utilizada en diferentes artículos de la página, y su estilo será el mismo en cada caso.
+
+En general, la metodología BEM es una buena práctica para mantener un código organizado y predecible, lo que facilita el trabajo de los desarrolladores y la mantenibilidad del código a largo plazo.</p>
       </article>
-      <article class="article">
-        <h3 class="article__title">Mi primer artículo</h3>
-        <p class="article__text">Este es mi primer artículo sobre HTML semántico y la metodología BEM.</p>
+     
       </article>
     </section>
     <aside class="sidebar">
-      <h3 class="sidebar__title">Sobre mí</h3>
-      <p class="sidebar__text">Soy un desarrollador web apasionado por el código limpio y las mejores prácticas.</p>
-      <h3 class="sidebar__title">Sobre mí</h3>
-      <p class="sidebar__text">Soy un desarrollador web apasionado por el código limpio y las mejores prácticas.</p>
-      <h3 class="sidebar__title">Sobre mí</h3>
-      <p class="sidebar__text">Soy un desarrollador web apasionado por el código limpio y las mejores prácticas.</p>
-      <h3 class="sidebar__title">Sobre mí</h3>
-      <p class="sidebar__text">Soy un desarrollador web apasionado por el código limpio y las mejores prácticas.</p>
+      <h3 class="sidebar__title">Mantén la estructura HTML semántica:</h3>
+      <p class="sidebar__text">Utiliza las etiquetas HTML correctas para cada sección de tu página, por ejemplo, utiliza etiquetas "header" para el encabezado, "main" para el contenido principal, "aside" para la barra lateral, "section" para secciones adicionales, y "footer" para el pie de página.</p>
+
+      <h3 class="sidebar__title">Utiliza CSS para el diseño y la presentación: </h3>
+      <p class="sidebar__text"> Separa el contenido de la presentación utilizando hojas de estilo en cascada (CSS). Esto te permitirá cambiar el diseño y la presentación de tu sitio sin afectar al contenido. Además, utiliza clases y etiquetas semánticas para nombrar tus estilos, lo que facilitará el mantenimiento y la escalabilidad..</p>
+
+      
     </aside>
   </main>
   <footer class="footer">
-    <p class="footer__text">Copyright © 2023</p>
+    <p class="footer__text">Copyright © Claudio ortiz 2023</p>
   </footer>
 </body>
 </html>
